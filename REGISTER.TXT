@@ -42,23 +42,3 @@
    website at http://www.rarlab.com On-line registration  is  available
    from the main page.
 
- +------------------------------------------------------------------------+
- |                         Registration procedure                         |
- +------------------------------------------------------------------------+
-
-   Upon receipt of your registration fee with the completed registration
-   form you will receive a registration key which will correspond to the
-   registration string given in the registration form.
-
-   Upon receipt of your registration key you should start FAR  from  the
-   command line with -r switch:
-
-   FAR -r
-
-   then  enter  your  name  (registration  string)  and  the  key   when
-   requested. This will activate the registered features of FAR.
-
-   It is possible, depending upon the facilities available at your local
-   registration site, to have the key delivered to your computer system,
-   to have it made available for pickup by you or to have  it  delivered
-   by your local postal service.
