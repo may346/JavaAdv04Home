@@ -309,34 +309,6 @@ Editor
 
 [+] When saving a file in the editor, FAR checks the date/time and size
     of the file on the disk and shows a warning message if these values
-    differ from the values stored earlier.
-
-[*] After pressing F2 to save a newly created file, a "Save as" dialog
-    was erroneously shown if the current directory in the panels
-    changed after Shift-F4 was pressed.
-
-[*] Pressing Alt does not cancel the selection mode (selection can
-    be continued after pressing Alt-Tab twice).
-
-[-] The option "Lock editing of read-only files" did not work correctly.
-
-[-] The key combination "Shift-Down, Shift-End" highlighted only one
-    line of text if a syntax coloring plugin (like Colorer) was
-    active.
-
-[-] When a file could not be opened for viewing, garbage could be added
-    to the view history.
-
-[-] Alt-BS incorrectly set the modified flag of the file, and this
-    caused an unnecessary attempt to update a file in an archive if it
-    was opened by pressing F4, modified, and then the modifications were
-    undone by pressing Alt-BS.
-
-[-] Problems with handling block selections (for example, duplicate blocks
-    could appear)
-
-[-] A replace operation where the replace string contained a line break
-    character caused the editor to go into an infinite loop.
 
 
 Viewer
@@ -353,28 +325,6 @@ Viewer
 [+] Possibility to view files larger than 4G in the internal viewer.
 
 [+] Now the selection of the found fragment is not cleared after moving
-    through the file. The selection can be cleared by pressing Ctrl-U or
-    by performing another search.
-
-[-] Pressing the Right key in the hex mode caused a change of the
-    column count.
-
-[!] The keys Ctrl-Shift-Left/Ctrl-Shift-Right scroll to the start/end
-    of the visible lines on the screen.
-
-[*] Before switching from the internal viewer to the editor, a check is
-    made to make sure that the file is accessible for editing.
-
-[-] Line feeds in the internal viewer were not detected correctly
-    after selecting the Unicode code page or switching from the
-    Unicode code page to a different one.
-
-
-Macros
-~~~~~~
-[+] Added a drop-down list to the macro assignment dialog, allowing to
-    assign macros to key combinations that cannot be entered directly
-    (like Enter, Esc, F1).
 
 [*] The flag "[x] Selection exists" for dialog macros is now handled
     correctly.
