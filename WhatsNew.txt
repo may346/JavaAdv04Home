@@ -23,11 +23,6 @@ General
 
 System
 ~~~~~~
-[!] Changing from normal to maximum possible console window size and back
-    (Alt-F9) is supported only under Windows NT/2000/XP.
-    Under Windows 9x/Me, only switching between 25 and 50 lines is
-    supported.
-
 [!] The "Plugin commands" and "Plugins configuration" menus are now sorted
     by the name of the plugin and not by the name of the plugin DLL file.
 
